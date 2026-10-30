@@ -1,7 +1,14 @@
-from fastapi import FastAPI
+# from fastapi import FastAPI
+# import codecs
 
-app = FastAPI()
+# app = FastAPI()
 
+text = "hello, world"
+print(text)
+
+"""
 @app.get("/00")
+
 async def root():
-    return {"message": "Hello World"}
+    return codecs.encode(this.s, 'rot_13')
+"""
